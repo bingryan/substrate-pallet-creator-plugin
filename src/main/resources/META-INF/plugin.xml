@@ -16,4 +16,10 @@
         <listener class="org.jetbrains.plugins.template.listeners.MyProjectManagerListener"
                   topic="com.intellij.openapi.project.ProjectManagerListener"/>
     </applicationListeners>
+    <actions>
+        <action id="Substrate.PalletCreatorAction" class="PalletCreatorAction" text="Pallet"
+                description="Create substrate pallet">
+            <add-to-group group-id="NewGroup" anchor="first"/>
+        </action>
+    </actions>
 </idea-plugin>
