@@ -1,4 +1,4 @@
-package com.bingryan;
+package com.bingryan.widget;
 
 import com.intellij.openapi.actionSystem.AnAction;
 import com.intellij.openapi.actionSystem.AnActionEvent;

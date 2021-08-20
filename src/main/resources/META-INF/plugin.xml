@@ -17,8 +17,8 @@
                   topic="com.intellij.openapi.project.ProjectManagerListener"/>
     </applicationListeners>
     <actions>
-        <action id="Substrate.com.bingryan.PalletCreatorAction"
-                class="com.bingryan.PalletCreatorAction"
+        <action id="Substrate.com.bingryan.widget.PalletCreatorAction"
+                class="com.bingryan.widget.PalletCreatorAction"
                 icon="/icons/substrate-logo.png"
                 text="Pallet"
                 description="Create substrate pallet">
