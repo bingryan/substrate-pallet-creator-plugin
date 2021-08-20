@@ -17,7 +17,10 @@
                   topic="com.intellij.openapi.project.ProjectManagerListener"/>
     </applicationListeners>
     <actions>
-        <action id="Substrate.PalletCreatorAction" class="PalletCreatorAction" text="Pallet"
+        <action id="Substrate.com.bingryan.PalletCreatorAction"
+                class="com.bingryan.PalletCreatorAction"
+                icon="/icons/substrate-logo.png"
+                text="Pallet"
                 description="Create substrate pallet">
             <add-to-group group-id="NewGroup" anchor="first"/>
         </action>
